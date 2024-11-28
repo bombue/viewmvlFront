@@ -15,8 +15,8 @@ function ObjectPage() {
     setLoading(true);
     setErrorMessage('');
     axios
-      .get('http://localhost:9080/api/object/getInfo', {
-        // .get('http://193.48.8.248:9080/api/object/getInfo', {
+      // .get('http://localhost:9080/api/object/getInfo', {
+        .get('http://193.48.8.248:9080/api/object/getInfo', {
         params: {
           name: name,
           type: type,

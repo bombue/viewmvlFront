@@ -21,8 +21,8 @@ function ViewMVL() {
     setErrorMessage('');
 
     axios
-      .get('http://localhost:9080/api/mvlid/getInfo', {
-        // .get('http://193.48.8.248:9080/api/mvlid/getInfo', {
+      // .get('http://localhost:9080/api/mvlid/getInfo', {
+        .get('http://193.48.8.248:9080/api/mvlid/getInfo', {
         params: {
           mvlID: mvlID,
           contour: contours.join(','),
@@ -307,7 +307,9 @@ function ViewMVL() {
     systems = systems.sort((a, b) => {
       if (a === mainSystem) return -1;
       if (b === mainSystem) return 1;
-      return a.localeCompare(b);
+      // Контур внутри одной системы един
+      // Надо сортировать в порядке TEST->CERT->PROD. Сортируем по 3 букве в обратном порядке)
+      return data[b][0].contour[2].localeCompare(data[a][0].contour[2]);
     });
 
     return systems.map((system) => {
