@@ -1,0 +1,94 @@
+.ViewMVL {
+  font-family: sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+
+table {
+  margin: 10px auto; /* Reduced margin */
+  border-collapse: collapse;
+  width: 90%; /* Increased width */
+  font-size: 14px; /* Reduced font size */
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 4px; /* Reduced padding */
+}
+
+th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+h2 {
+  margin-top: 20px; /* Reduced margin */
+}
+
+.highlight {
+  background-color: yellow;
+}
+
+.highlight-red {
+  background-color: red;
+  color: white;
+}
+
+.highlight-orange {
+  background-color: orange;
+}
+
+/* Position legend at top right */
+.legend {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: #fff;
+  padding: 10px;
+  border: 1px solid #ccc;
+  z-index: 1000;
+}
+
+/* Style controls and input groups */
+.controls {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center; /* Center items horizontally */
+  margin-bottom: 10px;
+}
+
+.input-group {
+  margin: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.input-group label {
+  margin-right: 5px;
+}
+
+input[type='text'],
+select {
+  padding: 5px;
+}
+
+button {
+  margin: 5px;
+  padding: 5px 10px;
+}
+
+/* Checkbox group styling */
+.checkbox-group {
+  display: flex;
+  align-items: center;
+}
+
+.checkbox-group label {
+  margin-right: 10px;
+}

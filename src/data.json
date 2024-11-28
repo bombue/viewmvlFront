@@ -1,0 +1,118 @@
+{
+  "BISTEST": [
+    {
+      "unit": "CNL ",
+      "object": {
+        "name": "SBPRPT    ",
+        "type": "*PGM      "
+      },
+      "exists": "Y",
+      "changeDate": "07.05.2024",
+      "changeTime": "10:35:03",
+      "sourceChangeDate": "03.05.2024",
+      "sourceChangeTime": "16:31:18",
+      "modules": [
+        {
+          "name": "SBPRPT    ",
+          "changeDate": "03.05.2024",
+          "changeTime": "16",
+          "sourceChangeDate": "31",
+          "sourceChangeTime": "29"
+        },
+        {
+          "name": "JOBLOG    ",
+          "changeDate": "03.05.2024",
+          "changeTime": "16",
+          "sourceChangeDate": "31",
+          "sourceChangeTime": "26"
+        }
+      ]
+    },
+    {
+      "unit": "STL ",
+      "object": {
+        "name": "SBPRPT    ",
+        "type": "*PGM      "
+      },
+      "exists": "Y",
+      "changeDate": "07.05.2024",
+      "changeTime": "10:34:19",
+      "sourceChangeDate": "03.05.2024",
+      "sourceChangeTime": "16:31:18",
+      "modules": [
+        {
+          "name": "SBPRPT    ",
+          "changeDate": "03.05.2024",
+          "changeTime": "16",
+          "sourceChangeDate": "31",
+          "sourceChangeTime": "29"
+        },
+        {
+          "name": "JOBLOG    ",
+          "changeDate": "03.05.2024",
+          "changeTime": "16",
+          "sourceChangeDate": "31",
+          "sourceChangeTime": "26"
+        }
+      ]
+    }
+  ],
+  "BISDEV": [
+    {
+      "unit": "STU ",
+      "object": {
+        "name": "SBPRPT    ",
+        "type": "*PGM      "
+      },
+      "exists": "Y",
+      "changeDate": "16.04.2024",
+      "changeTime": "11:06:24",
+      "sourceChangeDate": "16.04.2024",
+      "sourceChangeTime": "10:18:15",
+      "modules": [
+        {
+          "name": "SBPRPT    ",
+          "changeDate": "16.04.2024",
+          "changeTime": "10",
+          "sourceChangeDate": "18",
+          "sourceChangeTime": "50"
+        },
+        {
+          "name": "JOBLOG    ",
+          "changeDate": "16.04.2024",
+          "changeTime": "10",
+          "sourceChangeDate": "18",
+          "sourceChangeTime": "43"
+        }
+      ]
+    },
+    {
+      "unit": "STX ",
+      "object": {
+        "name": "SBPRPT    ",
+        "type": "*PGM      "
+      },
+      "exists": "Y",
+      "changeDate": "03.05.2024",
+      "changeTime": "16:31:30",
+      "sourceChangeDate": "03.05.2024",
+      "sourceChangeTime": "16:31:18",
+      "modules": [
+        {
+          "name": "SBPRPT    ",
+          "changeDate": "03.05.2024",
+          "changeTime": "16",
+          "sourceChangeDate": "31",
+          "sourceChangeTime": "29"
+        },
+        {
+          "name": "JOBLOG    ",
+          "changeDate": "03.05.2024",
+          "changeTime": "16",
+          "sourceChangeDate": "31",
+          "sourceChangeTime": "26"
+        }
+      ]
+    }
+  ]
+}
